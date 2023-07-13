@@ -1,4 +1,4 @@
-# STARTER-team01
+# m23-9am-2-team01
 
 Lab instructions: <https://ucsb-cs156.github.io/m23/lab/team01/>
 
@@ -7,32 +7,16 @@ Lab instructions: <https://ucsb-cs156.github.io/m23/lab/team01/>
 ```
 |   Name    | GitHub Id |  Service                    | Controller                |
 |-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
-|           |           | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Addi      | adityapatil834 | `LocationQueryService`      | `LocationController`      |   
+| Mohamed   | Mohamed-Elfouly| `PublicHolidayQueryService` | `PublicHolidayController` |   
+| Charli    | cjyu81         | `TidesQueryService`         | `TidesController`         |   
+| Andrew    | andrewthaii    | `UniversityQueryService`    | `UniversityController`    |
+| Bill      | abcdefucsb     | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
+Repo: https://github.com/ucsb-cs156-m23/team01-m23-9am-2.git
 
-* TODO: Change the title of this README 
-  in the text `# STARTER-team01` above
-  to match the name of your repo, i. e., `m23-5pm-2-team01`, then delete
-  this TODO item.
-
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-m23/m23-5pm-2-team01
-
-Repo: https://ucsb-cs156-m23/STARTER-team01
-
-* TODO: Correct the links to app on Dokku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Dokku, e.g.
-  https://team01.dokku-00.cs.ucsb.edu
-
-On Heroku: https://team01.dokku-00.cs.ucsb.edu
+http://team01.dokku-02.cs.ucsb.edu/
 
 ## About this repo
 
