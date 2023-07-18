@@ -28,9 +28,8 @@ public class PublicHolidayQueryServiceTests {
 
         String year = "2020";
         String countryCode = "US";
-        String expectedURL = PublicHolidayQueryService.ENDPOINT.replace("{year}", year)
-                .replace("{countryCode}", countryCode);
-
+        String expectedURL = PublicHolidayQueryService.ENDPOINT.replace("{countryCode}", countryCode)
+                .replace("{year}", year);
         String fakeJsonResult = "{ \"fake\" : \"result\" }";
 
         this.mockRestServiceServer.expect(requestTo(expectedURL))
@@ -38,7 +37,7 @@ public class PublicHolidayQueryServiceTests {
                 .andExpect(header("Content-Type", MediaType.APPLICATION_JSON.toString()))
                 .andRespond(withSuccess(fakeJsonResult, MediaType.APPLICATION_JSON));
 
-        String actualResult = PublicHolidayQueryService.getJSON(year, countryCode);
+        String actualResult = PublicHolidayQueryService.getJSON(countryCode, year);
         assertEquals(fakeJsonResult, actualResult);
     }
 
