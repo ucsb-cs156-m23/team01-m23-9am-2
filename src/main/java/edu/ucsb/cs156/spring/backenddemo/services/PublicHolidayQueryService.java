@@ -30,7 +30,7 @@ public class PublicHolidayQueryService {
         restTemplate = restTemplateBuilder.build();
     }
 
-    public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{countryCode}/{year}";
+    public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
 
     public String getJSON(String countryCode, String year) throws HttpClientErrorException {
         log.info("countryCode={}, year={}", countryCode, year);

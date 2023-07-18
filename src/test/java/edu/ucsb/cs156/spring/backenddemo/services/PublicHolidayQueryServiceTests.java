@@ -30,6 +30,7 @@ public class PublicHolidayQueryServiceTests {
         String countryCode = "US";
         String expectedURL = PublicHolidayQueryService.ENDPOINT.replace("{countryCode}", countryCode)
                 .replace("{year}", year);
+        
         String fakeJsonResult = "{ \"fake\" : \"result\" }";
 
         this.mockRestServiceServer.expect(requestTo(expectedURL))

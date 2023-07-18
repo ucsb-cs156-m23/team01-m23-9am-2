@@ -42,7 +42,7 @@ public class PublicHolidaysControllerTests {
   public void test_getPublicHolidays() throws Exception {
   
     String fakeJsonResult="{ \"fake\" : \"result\" }";
-    String year = "2023";
+    String year = "2020";
     String countryCode = "US";
     when(mockPublicHoldiaysQueryService.getJSON(eq(countryCode),eq(year))).thenReturn(fakeJsonResult);
 
