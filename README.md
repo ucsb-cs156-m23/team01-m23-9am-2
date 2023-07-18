@@ -2,8 +2,6 @@
 
 Lab instructions: <https://ucsb-cs156.github.io/m23/lab/team01/>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
 |   Name    | GitHub Id |  Service                    | Controller                |
 |-----------|-----------|-----------------------------|---------------------------| 
@@ -16,7 +14,7 @@ Lab instructions: <https://ucsb-cs156.github.io/m23/lab/team01/>
 
 Repo: https://github.com/ucsb-cs156-m23/team01-m23-9am-2.git
 
-http://team01.dokku-02.cs.ucsb.edu/
+Deployed at: http://team01.dokku-02.cs.ucsb.edu/
 
 ## About this repo
 
