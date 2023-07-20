@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-m23/team01-m23-9am-2
 owner: ucsb-cs156-m23
 repo_name: team01-m23-9am-2
-pull_requests: [{"author":{"id":"U_kgDOBh3juQ","is_bot":false,"login":"andrewthaii","name":""},"headRefName":"Andrew-UniversityQueryService","number":23,"title":"Add University Service and Test ","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/23"}]
+pull_requests: [{"author":{"id":"U_kgDOBh3juQ","is_bot":false,"login":"andrewthaii","name":""},"headRefName":"Andrew-UniversityQueryController","number":24,"title":"University Query Controller and test","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/24"},{"author":{"id":"U_kgDOBh3juQ","is_bot":false,"login":"andrewthaii","name":""},"headRefName":"Andrew-UniversityQueryService","number":23,"title":"Add University Service and Test ","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/23"}]
