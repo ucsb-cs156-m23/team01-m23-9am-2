@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-m23/team01-m23-9am-2
 owner: ucsb-cs156-m23
 repo_name: team01-m23-9am-2
-pull_requests: []
+pull_requests: [{"author":{"id":"MDQ6VXNlcjM5ODM3OTM5","is_bot":false,"login":"cjyu81","name":"Charlie"},"headRefName":"Charlie-TidesQuery","number":19,"title":"Charlie tides query service and test","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/19"}]
