@@ -30,11 +30,11 @@ import lombok.extern.slf4j.Slf4j;
     @Operation(summary = &quot;Get public holidays for a given year and country&quot;)
     @GetMapping(&quot;/get&quot;)
     public ResponseEntity&lt;String&gt; getPublicHolidays(
-        @Parameter(name=&quot;year&quot;, description=&quot;year, e.g. 2012&quot;) @RequestParam String year,
-        @Parameter(name=&quot;countryCode&quot;, description=&quot;2 letter country code, e.g. US, MX, CN&quot;) @RequestParam String countryCode
+        @Parameter(name=&quot;countryCode&quot;, description=&quot;2 letter country code, e.g. US, MX, CN&quot;) @RequestParam String countryCode,
+        @Parameter(name=&quot;year&quot;, description=&quot;year, e.g. 2012&quot;) @RequestParam String year
     ) throws JsonProcessingException {
-<span class="fc" id="L36">        log.info(&quot;getPublicHolidays: year={} countryCode={}&quot;, year, countryCode);</span>
-<span class="fc" id="L37">        String result = PublicHolidayQueryService.getJSON(year, countryCode);</span>
+<span class="fc" id="L36">        log.info(&quot;getPublicHolidays: countryCode={} year={}&quot;, countryCode, year);</span>
+<span class="fc" id="L37">        String result = PublicHolidayQueryService.getJSON(countryCode, year);</span>
 <span class="fc" id="L38">        return ResponseEntity.ok().body(result);</span>
     }
 
