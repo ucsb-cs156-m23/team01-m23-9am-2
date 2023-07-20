@@ -42,11 +42,11 @@ public class PublicHolidaysControllerTests {
   public void test_getPublicHolidays() throws Exception {
   
     String fakeJsonResult="{ \"fake\" : \"result\" }";
-    String year = "2023";
+    String year = "2020";
     String countryCode = "US";
-    when(mockPublicHoldiaysQueryService.getJSON(eq(year),eq(countryCode))).thenReturn(fakeJsonResult);
+    when(mockPublicHoldiaysQueryService.getJSON(eq(countryCode),eq(year))).thenReturn(fakeJsonResult);
 
-    String url = String.format("/api/PublicHolidays/get?year=%s&countryCode=%s",year,countryCode);
+    String url = String.format("/api/PublicHolidays/get?countryCode=%s&year=%s",countryCode,year);
 
     MvcResult response = mockMvc
         .perform( get(url).contentType("application/json"))
