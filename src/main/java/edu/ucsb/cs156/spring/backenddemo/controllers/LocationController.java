@@ -32,7 +32,7 @@ public class LocationController {
     @Operation(summary = "Get list of locations that match a given location name", description = "https://nominatim.openstreetmap.org/search/Oxnard?format=json")
     @GetMapping("/get")
     public ResponseEntity<String> getLocation(
-        @Parameter(name="location", description="Location name") @RequestParam String location
+        @Parameter(name="location", description="name to search, e.g. 'Isla Vista' or 'Eiffel Tower'") @RequestParam String location
     ) throws JsonProcessingException {
         log.info("getLocation: location={}", location);
         String result = LocationQueryService.getJSON(location);
