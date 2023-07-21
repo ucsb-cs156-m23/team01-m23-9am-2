@@ -32,7 +32,7 @@ public class ZipCodeQueryService {
         restTemplate = restTemplateBuilder.build();
     }
 
-    public static final String ENDPOINT = "\thttp://api.zippopotam.us/us/{zipcode}";
+    public static final String ENDPOINT = "http://api.zippopotam.us/us/{zipcode}";
 
     public String getJSON(String zipcode) throws HttpClientErrorException {
         log.info("zipcode={}",zipcode);
