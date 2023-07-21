@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-m23/team01-m23-9am-2
 owner: ucsb-cs156-m23
 repo_name: team01-m23-9am-2
-pull_requests: [{"author":{"id":"U_kgDOBtFRUg","is_bot":false,"login":"Mohamed-Elfouly","name":""},"headRefName":"Mohamed-Further-Testing","number":27,"title":"Add ZipCodeService and Controller","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/27"},{"author":{"id":"MDQ6VXNlcjc3NzEwNDI2","is_bot":false,"login":"adityapatil834","name":"Aditya Patil"},"headRefName":"Addi-LocationQueryService","number":26,"title":"Add LocationQueryService","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/26"}]
+pull_requests: [{"author":{"id":"U_kgDOBtFRUg","is_bot":false,"login":"Mohamed-Elfouly","name":""},"headRefName":"Mohamed-Further-Testing","number":28,"title":"Added ZipCode Service and Controller","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/28"},{"author":{"id":"MDQ6VXNlcjc3NzEwNDI2","is_bot":false,"login":"adityapatil834","name":"Aditya Patil"},"headRefName":"Addi-LocationQueryService","number":26,"title":"Add LocationQueryService","url":"https://github.com/ucsb-cs156-m23/team01-m23-9am-2/pull/26"}]
